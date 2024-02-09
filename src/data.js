@@ -1,8 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss } from 'react-icons/bi'
 import { SiExpress, SiNextdotjs } from 'react-icons/si'
-import uwindsor from './assets/uow.jpeg'
-import svit from './assets/svit.jpg'
 
 export const socials = [
     {
@@ -140,7 +138,6 @@ export const education = [
         major: 'Applied Computing',
         duration: '09/2023 - Present',
         cgpa: '',
-        image: uwindsor
     },
     {
         institute: 'SVIT',
@@ -149,7 +146,6 @@ export const education = [
         major: 'Information Technology',
         duration: '06/2019 - 05/2023',
         cgpa: '9.02/10.00',
-        image: svit
     }
 ]
 

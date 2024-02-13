@@ -1,6 +1,6 @@
 import React from 'react'
 import { education } from '../../data'
-import uwindor from '../../assets/uow.jpeg'
+import uwindor from '../../assets/uow.jpg'
 import svit from '../../assets/svit.jpg'
 
 function Education() {

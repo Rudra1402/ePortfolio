@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { projects } from '../../data'
+import { BiExpandAlt } from "react-icons/bi";
 
 function Projects() {
+    const [isExpand, setIsExpand] = useState(false)
+    const [selectedProject, setSelectedProject] = useState(null)
     return (
         <div className='h-[calc(100%-64px)] w-full p-4 flex justify-center text-white'>
             <div
@@ -11,8 +14,15 @@ function Projects() {
                 {projects?.map((project, index) => (
                     <div
                         key={index}
-                        className='w-[100%] h-fit p-4 rounded-md bg-[#12345685] flex flex-col gap-y-3 shadow shadow-[#12345685]'
+                        className='w-[100%] h-fit p-4 rounded-md bg-[#12345685] flex flex-col gap-y-3 shadow shadow-[#12345685] relative'
                     >
+                        <BiExpandAlt
+                            className='absolute top-3 right-3 cursor-pointer'
+                            onClick={() => {
+                                setSelectedProject(project)
+                                setIsExpand(true)
+                            }}
+                        />
                         <div
                             className='text-green-400 tracking-wide text-2xl leading-none font-medium'
                         >
@@ -29,14 +39,14 @@ function Projects() {
                             {project.techStack?.map((t, index) => (
                                 <div
                                     key={index}
-                                    className='py-1 px-2 rounded-sm shadow-md bg-gray-200 text-sm leading-none text-gray-900'
+                                    className='py-1 px-2 rounded-sm shadow-md bg-gray-200 text-sm leading-none font-medium text-gray-900'
                                 >
                                     {t}
                                 </div>
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-2'
+                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-3'
                         >
                             {project.desc}
                         </div>

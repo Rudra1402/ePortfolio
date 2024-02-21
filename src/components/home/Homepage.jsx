@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React, { useState } from 'react'
 import profile from '../../assets/profile.jpg'
-import rudra from '../../assets/rudra.jpg'
+import rudra from '../../assets/rudra.JPEG'
 import { socials } from '../../data'
 
 function Homepage() {

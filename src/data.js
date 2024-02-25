@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs } from 'react-icons/si'
+import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus } from 'react-icons/si'
 
 export const socials = [
     {
@@ -155,6 +155,14 @@ export const techSkills = [
         Component: BiLogoJavascript
     },
     {
+        sname: 'Python',
+        Component: BiLogoPython
+    },
+    {
+        sname: 'C++',
+        Component: SiCplusplus
+    },
+    {
         sname: 'React.js',
         Component: BiLogoReact
     },
@@ -171,8 +179,8 @@ export const techSkills = [
         Component: SiExpress
     },
     {
-        sname: 'Python',
-        Component: BiLogoPython
+        sname: 'Flask',
+        Component: SiFlask
     },
     {
         sname: 'Django',

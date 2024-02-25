@@ -23,7 +23,20 @@ function Workexp() {
                         </div>
                         <div className='flex w-full text-lg items-center justify-center'>
                             <div className='w-1/4 text-right pr-2 text-green-400 leading-7'>Description</div>
-                            <div className='w-3/4 text-left pl-1'>{we.desc}</div>
+                            <div className='w-3/4 text-left pl-1'>
+                                <ul
+                                    className='ml-4'
+                                >
+                                    {we.desc?.map((pt, ix) => (
+                                        <li
+                                            key={ix}
+                                            className='list-item list-disc'
+                                        >
+                                            {pt}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
                             <div className='w-1/4 text-right pr-2 text-green-400'>Duration</div>

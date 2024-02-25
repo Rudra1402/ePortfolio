@@ -15,7 +15,7 @@ function Navbar() {
             <Link
                 to={'/'}
                 className={classNames(
-                    'italic tracking-wide py-1.5 px-2.5 rounded',
+                    'tracking-wide py-1.5 px-2.5 rounded',
                     activePath == '/' ? 'bg-[#123456bb] shadow shadow-gray-600' : 'bg-transparent'
                 )}
                 onClick={() => setActivePath('/')}

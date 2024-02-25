@@ -108,7 +108,7 @@ export const workExp = [
             "Worked on 2 projects. 1. DueDash, 2. EduFlip.",
             "For the first 1.5 months, worked on DueDash. Worked on developing custom and reusable components in React.js and integrating them in the main pages.",
             "For next 5 months, worked on EduFlip. By the time my internship came to an end, it was ready for its first release.",
-            "I had to develop all the pages in Next.js from scratch using reusable components."
+            "Developed all the pages in Next.js from scratch using reusable components."
         ],
         techStack: ['React.js', 'Next.js', 'Tailwind CSS'],
         duration: '01/2023 - 07/2023',
@@ -120,7 +120,7 @@ export const workExp = [
         company: 'TatvaSoft',
         location: 'Remote',
         desc: [
-            "Got to work on an individual project. I had to develop an online shopping store.",
+            "Got to work on an individual project. Developed an online shopping store.",
             "This store contains electronic gadgets as the primary products.",
             "Everyday I had to report to the manager regarding the progress of the project."
         ],
@@ -152,58 +152,72 @@ export const education = [
 export const techSkills = [
     {
         sname: 'JavaScript',
-        Component: BiLogoJavascript
+        Component: BiLogoJavascript,
+        category: 'lang'
     },
     {
         sname: 'Python',
-        Component: BiLogoPython
+        Component: BiLogoPython,
+        category: 'lang'
     },
     {
         sname: 'C++',
-        Component: SiCplusplus
+        Component: SiCplusplus,
+        category: 'lang'
     },
     {
         sname: 'React.js',
-        Component: BiLogoReact
+        Component: BiLogoReact,
+        category: 'l&f'
     },
     {
         sname: 'Next.js',
-        Component: SiNextdotjs
+        Component: SiNextdotjs,
+        category: 'l&f'
     },
     {
         sname: 'Node.js',
-        Component: BiLogoNodejs
+        Component: BiLogoNodejs,
+        category: 'l&f'
     },
     {
         sname: 'Express.js',
-        Component: SiExpress
+        Component: SiExpress,
+        category: 'l&f'
     },
     {
         sname: 'Flask',
-        Component: SiFlask
+        Component: SiFlask,
+        category: 'l&f'
     },
     {
         sname: 'Django',
-        Component: BiLogoDjango
+        Component: BiLogoDjango,
+        category: 'l&f'
     },
     {
         sname: 'MongoDB',
-        Component: BiLogoMongodb
+        Component: BiLogoMongodb,
+        category: 'db'
     },
     {
         sname: 'PostgreSQL',
-        Component: BiLogoPostgresql
+        Component: BiLogoPostgresql,
+        category: 'db'
     },
     {
         sname: 'Git',
-        Component: BiLogoGit
+        Component: BiLogoGit,
+        category: 'vcs'
     },
     {
         sname: 'Github',
-        Component: BiLogoGithub
+        Component: BiLogoGithub,
+        category: 'vcs'
     },
     {
         sname: 'Tailwind CSS',
-        Component: BiLogoTailwindCss
+        Component: BiLogoTailwindCss,
+        category: 'l&f'
     }
 ]

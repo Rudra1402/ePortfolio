@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@1,500&family=Nunito&family=Open+Sans&family=Poppins&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "nexareg";
+  src: url("./fonts/Nexa Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "nexabold";
+  src: url("./fonts/Nexa Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "nexalight";
+  src: url("./fonts/Nexa Light.otf") format("truetype");
+}
 
 body{
-    font-family: "Montserrat", sans-serif;
+    font-family: "nexareg", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;

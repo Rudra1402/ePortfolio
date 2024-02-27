@@ -48,6 +48,13 @@ export const projects = [
         isOnGithub: true
     },
     {
+        name: 'Guess The Color',
+        category: 'CSS Game',
+        techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+        desc: 'It is a fun game where you can test your knowledge, experience and accuracy you have on the CSS property of color. You have two color formats to choose from; RGB and HEX. It consists of a leaderboard to create a competitive environment. This game will surely improve your CSS knowledge.',
+        isOnGithub: true
+    },
+    {
         name: 'E-Mart',
         category: 'E-Commerce Platform',
         techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
@@ -87,13 +94,6 @@ export const projects = [
         category: 'Quiz Application',
         techStack: ['HTML', 'CSS', 'JavaScript'],
         desc: 'It is a technical quiz consisting of questions from different programming languages. Every correct answer will reward you 1 point, no negative point scheme. There are total 10 questions. At the end of the quiz user will get the final score.',
-        isOnGithub: true
-    },
-    {
-        name: 'Guess The Color',
-        category: 'CSS Game',
-        techStack: ['HTML', 'CSS', 'JavaScript'],
-        desc: 'It is a fun game where you can test your knowledge, experience and accuracy you have on the CSS property of color. You have two color formats to choose from; RGB and HEX. This game will surely improve your CSS knowledge.',
         isOnGithub: true
     }
 ]

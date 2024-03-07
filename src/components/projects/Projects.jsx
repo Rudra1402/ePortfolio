@@ -31,7 +31,7 @@ function Projects() {
                     {selectedProject?.category}
                 </div>
                 <div
-                    className='flex items-center gap-x-2'
+                    className='flex items-center w-full overflow-x-auto gap-x-2'
                 >
                     {selectedProject?.techStack?.map((t, index) => (
                         <div
@@ -57,7 +57,7 @@ function Projects() {
         >
             {isExpand ? projectDialog : null}
             <div
-                className='grid w-[75%] h-full overflow-y-auto grid-cols-2 gap-4'
+                className='grid w-[92%] sm:w-[65%] md:w-[85%] lg:w-[75%] h-full overflow-y-auto grid-cols-1 md:grid-cols-2 gap-4'
                 style={{ scrollbarWidth: 'none' }}
             >
                 {projects?.map((project, index) => (
@@ -83,7 +83,8 @@ function Projects() {
                             {project.category}
                         </div>
                         <div
-                            className='flex items-center gap-x-2'
+                            className='flex items-center gap-x-2 w-full overflow-x-auto'
+                            style={{ scrollbarWidth: 'none' }}
                         >
                             {project.techStack?.map((t, index) => (
                                 <div
@@ -95,7 +96,7 @@ function Projects() {
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-3'
+                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-4 sm:line-clamp-3'
                         >
                             {project.desc}
                         </div>

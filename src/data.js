@@ -125,7 +125,7 @@ export const workExp = [
             "Everyday I had to report to the manager regarding the progress of the project."
         ],
         techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
-        duration: '06/2022 - 07/2022',
+        duration: '03/2022 - 07/2022',
         certificateUrl: 'https://media.licdn.com/dms/image/D4D2DAQHWnJf3gOxq7w/profile-treasury-document-cover-images_480/0/1692809204396?e=1700370000&v=beta&t=-cCxgVc89b5Lq7AAQqXgAbUnmR05PU-KlNzs56m4Hi4'
     }
 ]

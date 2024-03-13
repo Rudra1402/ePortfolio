@@ -15,48 +15,48 @@ function Navbar() {
 
     const mobileSidebar = (
         <div
-            className='absolute top-0 left-0 bottom-0 w-5/6 sm:w-4/5 md:w-3/5 bg-gray-200 shadow-md text-gray-800 px-8 py-14 flex flex-col gap-y-4 items-center z-20'
+            className='absolute top-0 left-0 bottom-0 w-5/6 sm:w-4/5 md:w-3/5 bg-gray-200 shadow-md text-gray-800 px-8 py-14 flex flex-col gap-y-6 items-center z-20'
         >
             <RxCross2
                 className='absolute top-3 right-3 text-3xl leading-none cursor-pointer'
                 onClick={() => setOpenSidebar(false)}
             />
             <div
-                className='font-semibold text-2xl font-mono leading-none mb-3 underline underline-offset-4'
+                className='font-semibold text-3xl font-mono leading-none mb-3 underline underline-offset-4'
             >
                 Rudra Patel
             </div>
             <Link
                 to={'/'}
-                className=''
+                className='text-2xl leading-none'
                 onClick={() => setOpenSidebar(false)}
             >
                 Home
             </Link>
             <Link
                 to={'/projects'}
-                className=''
+                className='text-2xl leading-none'
                 onClick={() => setOpenSidebar(false)}
             >
                 Projects
             </Link>
             <Link
                 to={'/experience'}
-                className=''
+                className='text-2xl leading-none'
                 onClick={() => setOpenSidebar(false)}
             >
                 Experience
             </Link>
             <Link
                 to={'/education'}
-                className=''
+                className='text-2xl leading-none'
                 onClick={() => setOpenSidebar(false)}
             >
                 Education
             </Link>
             <Link
                 to={'/skills'}
-                className=''
+                className='text-2xl leading-none'
                 onClick={() => setOpenSidebar(false)}
             >
                 Skills

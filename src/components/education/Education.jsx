@@ -7,7 +7,8 @@ function Education() {
     return (
         <div className='h-[calc(100%-64px)] w-full p-4 flex justify-center text-white'>
             <div
-                className='grid w-[50%] h-full overflow-y-auto grid-cols-1 gap-y-6'
+                className='grid w-[95%] md:w-[75%] lg:w-[50%] h-full overflow-y-auto grid-cols-1 gap-y-6'
+                style={{ scrollbarWidth: 'none' }}
             >
                 {education?.map((edu, index) => (
                     <div
@@ -28,28 +29,28 @@ function Education() {
                             }}
                         ></div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>Institute</div>
-                            <div className='w-3/5 text-left pl-1 tracking-wide'>{edu.institute}</div>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Institute</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.institute}</div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>Degree</div>
-                            <div className='w-3/5 text-left pl-1 tracking-wide'>{edu.courseDegree}</div>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Degree</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.courseDegree}</div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>Major</div>
-                            <div className='w-3/5 text-left pl-1 tracking-wide'>{edu.major}</div>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Major</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.major}</div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>Duration</div>
-                            <div className='w-3/5 text-left pl-1 tracking-wide'>{edu.duration}</div>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Duration</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.duration}</div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>Location</div>
-                            <div className='w-3/5 text-left pl-1 tracking-wide'>{edu.city}</div>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Location</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.city}</div>
                         </div>
                         <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-2/5 text-right pr-2 text-green-400'>CPGA</div>
-                            <div className='w-3/5 text-left pl-1'>
+                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>CPGA</div>
+                            <div className='w-2/3 sm:w-3/5 text-left pl-1'>
                                 {edu.cgpa !== '' ? edu.cgpa : 'N/A'}
                             </div>
                         </div>

@@ -8,7 +8,7 @@ function Skills() {
             style={{ scrollbarWidth: 'none' }}
         >
             <div className='w-[95%] md:w-[75%] lg:w-[60%] flex flex-col gap-y-3'>
-                <div className='text-xl sm:text-2xl leading-none px-1'>Languages</div>
+                <div className='text-xl sm:text-2xl leading-none px-1'>Programming Languages</div>
                 <div
                     className='grid w-[100%] h-full grid-cols-2 gap-3'
                 >

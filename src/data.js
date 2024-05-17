@@ -137,7 +137,7 @@ export const education = [
         courseDegree: 'Master\'s degree',
         major: 'Applied Computing',
         duration: '09/2023 - Present',
-        cgpa: '',
+        cgpa: '3.7 / 4.0',
     },
     {
         institute: 'SVIT',
@@ -145,7 +145,7 @@ export const education = [
         courseDegree: 'Bachelor\'s degree',
         major: 'Information Technology',
         duration: '06/2019 - 05/2023',
-        cgpa: '9.02/10.00',
+        cgpa: '9.02 / 10.00',
     }
 ]
 

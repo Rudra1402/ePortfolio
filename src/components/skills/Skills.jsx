@@ -67,6 +67,36 @@ function Skills() {
                     ))}
                 </div>
             </div>
+            <div className='w-[95%] md:w-[75%] lg:w-[60%] flex flex-col gap-y-3'>
+                <div className='text-xl sm:text-2xl leading-none px-1'>Containerization</div>
+                <div
+                    className='grid w-[100%] h-full grid-cols-2 gap-3'
+                >
+                    {techSkills?.filter(x => x.category == 'cont')?.map((ts, index) => (
+                        <div
+                            key={index}
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                        >
+                            <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className='w-[95%] md:w-[75%] lg:w-[60%] flex flex-col gap-y-3'>
+                <div className='text-xl sm:text-2xl leading-none px-1'>Developer Tools</div>
+                <div
+                    className='grid w-[100%] h-full grid-cols-2 gap-3'
+                >
+                    {techSkills?.filter(x => x.category == 'tool')?.map((ts, index) => (
+                        <div
+                            key={index}
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                        >
+                            <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }

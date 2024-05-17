@@ -1,6 +1,6 @@
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaJava, FaDocker, FaJira, FaTrello, FaBootstrap } from 'react-icons/fa'
 import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus } from 'react-icons/si'
+import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode } from 'react-icons/si'
 
 export const socials = [
     {
@@ -166,6 +166,11 @@ export const techSkills = [
         category: 'lang'
     },
     {
+        sname: 'Java',
+        Component: FaJava,
+        category: 'lang'
+    },
+    {
         sname: 'React.js',
         Component: BiLogoReact,
         category: 'l&f'
@@ -201,8 +206,18 @@ export const techSkills = [
         category: 'db'
     },
     {
+        sname: 'MS SQL Server',
+        Component: SiMicrosoftsqlserver,
+        category: 'db'
+    },
+    {
         sname: 'PostgreSQL',
         Component: BiLogoPostgresql,
+        category: 'db'
+    },
+    {
+        sname: 'MySQL',
+        Component: SiMysql,
         category: 'db'
     },
     {
@@ -219,5 +234,40 @@ export const techSkills = [
         sname: 'Tailwind CSS',
         Component: BiLogoTailwindCss,
         category: 'l&f'
+    },
+    {
+        sname: 'Bootstrap',
+        Component: FaBootstrap,
+        category: 'l&f'
+    },
+    {
+        sname: 'Docker',
+        Component: FaDocker,
+        category: 'cont'
+    },
+    {
+        sname: 'Kubernetes',
+        Component: SiKubernetes,
+        category: 'cont'
+    },
+    {
+        sname: 'JIRA',
+        Component: FaJira,
+        category: 'tool'
+    },
+    {
+        sname: 'Postman',
+        Component: SiPostman,
+        category: 'tool'
+    },
+    {
+        sname: 'VS Code',
+        Component: SiVisualstudiocode,
+        category: 'tool'
+    },
+    {
+        sname: 'Trello',
+        Component: FaTrello,
+        category: 'tool'
     }
 ]

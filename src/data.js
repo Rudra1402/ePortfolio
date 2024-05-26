@@ -138,8 +138,8 @@ export const workExp = [
             "For next 5 months, worked on EduFlip. By the time my internship came to an end, it was ready for its first release.",
             "Developed all the pages in Next.js from scratch using reusable components."
         ],
-        techStack: ['React.js', 'Next.js', 'Tailwind CSS'],
-        duration: '01/2023 - 07/2023',
+        techStack: ['React.js', 'Next.js', 'AWS S3', 'Tailwind CSS'],
+        duration: 'Jan 2023 - Jul 2023',
         certificateUrl: 'https://media.licdn.com/dms/image/D562DAQGNv0dgoAAWYg/profile-treasury-document-cover-images_480/0/1699763169649?e=1700370000&v=beta&t=HzJUHD9x9U5e_KSOghFpyJ9KGniFdEI2f9k8ev0NGas'
     },
     {
@@ -153,7 +153,7 @@ export const workExp = [
             "Everyday I had to report to the manager regarding the progress of the project."
         ],
         techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
-        duration: '03/2022 - 07/2022',
+        duration: 'Jul 2022 - Dec 2022',
         certificateUrl: 'https://media.licdn.com/dms/image/D4D2DAQHWnJf3gOxq7w/profile-treasury-document-cover-images_480/0/1692809204396?e=1700370000&v=beta&t=-cCxgVc89b5Lq7AAQqXgAbUnmR05PU-KlNzs56m4Hi4'
     }
 ]

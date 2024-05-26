@@ -63,7 +63,7 @@ function Projects() {
                 {projects?.map((project, index) => (
                     <div
                         key={index}
-                        className='w-[100%] h-fit p-4 rounded-md bg-[#12345685] flex flex-col gap-y-3 shadow shadow-[#12345685] relative'
+                        className='w-[100%] h-fit p-4 rounded-md bg-[#0008] flex flex-col gap-y-3 shadow shadow-[#12345685] relative'
                     >
                         <BiExpandAlt
                             className='absolute top-3 right-3 cursor-pointer hover:-rotate-90 transition duration-200'
@@ -96,7 +96,7 @@ function Projects() {
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-4 sm:line-clamp-3 text-justify'
+                            className='overflow-hidden text-gray-200 text-lg leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 text-justify'
                         >
                             {project.desc}
                         </div>

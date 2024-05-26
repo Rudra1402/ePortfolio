@@ -93,7 +93,7 @@ function Navbar() {
                     className={classNames(
                         'py-1.5 px-2.5 rounded tracking-wide',
                         activePath == '/projects'
-                            ? 'bg-[#deb887] text-gray-800 shadow shadow-gray-600'
+                            ? 'bg-[#deb887] text-gray-800'
                             : 'bg-transparent text-gray-200'
                     )}
                     onClick={() => setActivePath('/projects')}
@@ -103,7 +103,7 @@ function Navbar() {
                     className={classNames(
                         'py-1.5 px-2.5 rounded tracking-wide',
                         activePath == '/experience'
-                            ? 'bg-[#deb887] text-gray-800 shadow shadow-gray-600'
+                            ? 'bg-[#deb887] text-gray-800'
                             : 'bg-transparent text-gray-200'
                     )}
                     onClick={() => setActivePath('/experience')}
@@ -113,7 +113,7 @@ function Navbar() {
                     className={classNames(
                         'py-1.5 px-2.5 rounded tracking-wide',
                         activePath == '/education'
-                            ? 'bg-[#deb887] text-gray-800 shadow shadow-gray-600'
+                            ? 'bg-[#deb887] text-gray-800'
                             : 'bg-transparent text-gray-200'
                     )}
                     onClick={() => setActivePath('/education')}
@@ -123,7 +123,7 @@ function Navbar() {
                     className={classNames(
                         'py-1.5 px-2.5 rounded tracking-wide',
                         activePath == '/skills'
-                            ? 'bg-[#deb887] text-gray-800 shadow shadow-gray-600'
+                            ? 'bg-[#deb887] text-gray-800'
                             : 'bg-transparent text-gray-200'
                     )}
                     onClick={() => setActivePath('/skills')}

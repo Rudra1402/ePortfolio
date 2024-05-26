@@ -28,7 +28,7 @@ function Projects() {
                 <div
                     className='text-base text-gray-600 leading-none tracking-wide'
                 >
-                    {selectedProject?.category}
+                    {selectedProject?.category} Project
                 </div>
                 <div
                     className='flex items-center w-full overflow-x-auto gap-x-2'
@@ -43,7 +43,7 @@ function Projects() {
                     ))}
                 </div>
                 <div
-                    className='text-gray-700 text-lg'
+                    className='text-gray-700 text-lg text-justify'
                 >
                     {selectedProject?.desc}
                 </div>
@@ -73,14 +73,14 @@ function Projects() {
                             }}
                         />
                         <div
-                            className='text-green-400 tracking-wide text-2xl leading-none font-medium'
+                            className='text-green-400 tracking-wide text-xl leading-none font-medium'
                         >
-                            {project.name}
+                            {(index + 1) + ". " + project.name}
                         </div>
                         <div
-                            className='text-base text-gray-300 leading-none tracking-wide'
+                            className='text-base text-gray-400 leading-none tracking-wide'
                         >
-                            {project.category}
+                            {project.category} Project
                         </div>
                         <div
                             className='flex items-center gap-x-2 w-full overflow-x-auto'
@@ -96,7 +96,7 @@ function Projects() {
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-4 sm:line-clamp-3'
+                            className='overflow-hidden text-gray-200 text-lg text-ellipsis line-clamp-4 sm:line-clamp-3 text-justify'
                         >
                             {project.desc}
                         </div>

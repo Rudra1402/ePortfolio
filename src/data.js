@@ -27,75 +27,103 @@ export const socials = [
 
 export const projects = [
     {
+        name: 'Bankify',
+        category: 'Personal',
+        techStack: ['React.js', 'Node.js', 'Express.js', 'Firebase', 'MongoDB'],
+        desc: 'Created a banking app using JavaScript, React.js, Tailwind CSS, fortified with secure Node.js and Express.js REST APIs, and utilizing Postman for API testing. Leveraged NoSQL database MongoDB for scalability and rapid data access, while offering users an insightful dashboard for a comprehensive account overview on platform.',
+        isOnGithub: true
+    },
+    {
+        name: 'HungerHalt',
+        category: 'Academic',
+        techStack: ['React.js', 'Python', 'Node.js', 'Express.js', 'MongoDB'],
+        desc: 'Developed a food waste management platform by implementing JavaScript, React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Demonstrated the ability to create and train Python model and integrated it in the application for predictive analytics to minimize the food wastage.',
+        isOnGithub: true
+    },
+    {
+        name: 'DueDash',
+        category: 'Professional',
+        techStack: ['React.js', 'Next.js', 'Tailwind CSS'],
+        desc: 'Constructed the frontend of DueDash Capital Networks leveraging JavaScript, TypeScript, React.js and Tailwind CSS, integrated Node.js and Express.js REST APIs and Python scripts. Crafted custom reusable components in React.js, to improve the performance of the application, focused on mobile responsiveness of the web pages.',
+        isOnGithub: false
+    },
+    {
+        name: 'Freelance Marketplace',
+        category: 'Personal',
+        techStack: ['Python', 'Flask', 'SQLAlchemy', 'JavaScript'],
+        desc: 'Constructed the backend of the freelance marketplace platform using Python, Flask web framework and SQLAlchemy database, integrated GCP for user authentication. Crafted the user-facing frontend of the freelance marketplace by implementing ReactJS enhancing the overall experience for both freelancers and clients seeking to connect and collaborate on projects.',
+        isOnGithub: true
+    },
+    {
         name: 'Project Manager',
-        category: 'Projects and APIs listing platform',
+        category: 'Personal',
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         desc: 'It is a projects and APIs listing platform, a great place for developers. They can post their projects and APIs on the platform as well as they can inspire from the work of other developers available on the platform. Beginners can use the APIs posted on the platform to start their development journey.',
         isOnGithub: true
     },
     {
-        name: 'Bankify',
-        category: 'Banking App',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'Firebase', 'MongoDB'],
-        desc: 'A banking app where users can add accounts, add contacts, transfer funds to the contacts, access transfer history based on user\'s added accounts. Users can also view their total balance and print transfer history statements as a pdf. Users can also edit their profiles, upload their profile images from the profile section.',
+        name: 'Hotel Price Analysis',
+        category: 'Academic',
+        techStack: ['Java', 'Selenium'],
+        desc: 'Co-developed a sophisticated console-based Java application designed to efficiently scan through three distinct hotel websites using Selenium, analyze and present the best deals. Demonstrated the ability to develop an application that records the search frequency of cities, offers recommendations for popular destinations and intelligently corrects spelling errors to ensure accurate search results.',
         isOnGithub: true
     },
     {
         name: 'Communix',
-        category: 'Social Media Platform',
+        category: 'Personal',
         techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
         desc: 'A social media site where users can share, like, comment, and report posts on their timeline along with notifications and recent activity. There is an Admin Dashboard for the admin of the site and from there the admin can manage the users, reported posts, and contact queries. A user also has a profile page with several insights.',
         isOnGithub: true
     },
     {
         name: 'Guess The Color',
-        category: 'CSS Game',
+        category: 'Personal',
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         desc: 'It is a fun game where you can test your knowledge, experience and accuracy you have on the CSS property of color. You have two color formats to choose from; RGB and HEX. It consists of a leaderboard to create a competitive environment. This game will surely improve your CSS knowledge.',
         isOnGithub: true
     },
     {
         name: 'E-Mart',
-        category: 'E-Commerce Platform',
+        category: 'Personal',
         techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
         desc: 'This is an e-commerce website specifically developed for electronic gadgets. Also, all the products are available at a discounted price with several other features. Moreover, average rating based on feedback is also visible in the footer.',
         isOnGithub: true
     },
     {
         name: 'Gossip Corner',
-        category: 'Social Media Platform',
+        category: 'Personal',
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         desc: 'This is a social media website which provides one of the best platforms to share your gossips with the world and have fun together with several other features and benefits. Users can post their gossips, view gossips on their timeline, or delete their gossips.',
         isOnGithub: true
     },
-    {
-        name: 'QR Code Generator',
-        category: 'Generator Tool',
-        techStack: ['React.js', 'Flask'],
-        desc: 'It is a simple QR Code Generator where you can just input any valid URL and it will generate a QR Code for that URL. Now, you can scan the QR Code and access the URL',
-        isOnGithub: true
-    },
-    {
-        name: 'PokéCard',
-        category: 'Pokemon App',
-        techStack: ['HTML', 'CSS', 'React.js'],
-        desc: 'This is a Pokemon application where information of several pokemons are made available using the help of a pokemon api. Search pokemon name to access important infromation realted to that pokemon.',
-        isOnGithub: true
-    },
-    {
-        name: 'News Application',
-        category: 'News App',
-        techStack: ['React Native', 'CSS'],
-        desc: 'Users can view news for various categories like sports, health, business, etc. By default general category is set. Users can change the category from the navbar to view news of their own choice. They can also visit the original source of the news from the provided link.',
-        isOnGithub: true
-    },
-    {
-        name: 'TechQuiz',
-        category: 'Quiz Application',
-        techStack: ['HTML', 'CSS', 'JavaScript'],
-        desc: 'It is a technical quiz consisting of questions from different programming languages. Every correct answer will reward you 1 point, no negative point scheme. There are total 10 questions. At the end of the quiz user will get the final score.',
-        isOnGithub: true
-    }
+    // {
+    //     name: 'QR Code Generator',
+    //     category: 'Generator Tool',
+    //     techStack: ['React.js', 'Flask'],
+    //     desc: 'It is a simple QR Code Generator where you can just input any valid URL and it will generate a QR Code for that URL. Now, you can scan the QR Code and access the URL',
+    //     isOnGithub: true
+    // },
+    // {
+    //     name: 'PokéCard',
+    //     category: 'Pokemon App',
+    //     techStack: ['HTML', 'CSS', 'React.js'],
+    //     desc: 'This is a Pokemon application where information of several pokemons are made available using the help of a pokemon api. Search pokemon name to access important infromation realted to that pokemon.',
+    //     isOnGithub: true
+    // },
+    // {
+    //     name: 'News Application',
+    //     category: 'News App',
+    //     techStack: ['React Native', 'CSS'],
+    //     desc: 'Users can view news for various categories like sports, health, business, etc. By default general category is set. Users can change the category from the navbar to view news of their own choice. They can also visit the original source of the news from the provided link.',
+    //     isOnGithub: true
+    // },
+    // {
+    //     name: 'TechQuiz',
+    //     category: 'Quiz Application',
+    //     techStack: ['HTML', 'CSS', 'JavaScript'],
+    //     desc: 'It is a technical quiz consisting of questions from different programming languages. Every correct answer will reward you 1 point, no negative point scheme. There are total 10 questions. At the end of the quiz user will get the final score.',
+    //     isOnGithub: true
+    // }
 ]
 
 export const workExp = [

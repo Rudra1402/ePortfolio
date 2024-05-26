@@ -21,7 +21,7 @@ function Workexp() {
                             <div className='w-1/4 md:text-right pr-2 text-green-400'>Company</div>
                             <div className='w-3/4 leading-5 md:leading-none text-left md:pl-1 tracking-wide'>{we.company}</div>
                         </div>
-                        <div className='flex flex-col md:flex-row w-full text-lg items-start md:items-center justify-center gap-y-1 md:gap-0'>
+                        <div className='flex flex-col md:flex-row w-full text-lg items-start md:items-start justify-center gap-y-1 md:gap-0'>
                             <div
                                 className='w-1/4 md:text-right pr-2 text-green-400 md:leading-7 m-0'
                             >Description</div>
@@ -59,7 +59,7 @@ function Workexp() {
                                 {we.techStack?.map((t, ix) => (
                                     <div
                                         key={ix}
-                                        className='py-1 px-2 bg-red-700 text-gray-200 rounded whitespace-nowrap'
+                                        className='py-1 px-2 bg-gray-200 text-gray-800 rounded whitespace-nowrap'
                                     >
                                         {t}
                                     </div>

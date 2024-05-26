@@ -46,7 +46,7 @@ function Workexp() {
                                     {we.desc?.map((pt, ix) => (
                                         <li
                                             key={ix}
-                                            className='list-item list-disc'
+                                            className='list-item list-disc text-justify'
                                         >
                                             {pt}
                                         </li>

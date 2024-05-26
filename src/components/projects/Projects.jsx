@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { projects } from '../../data'
-import { BiExpandAlt } from "react-icons/bi";
+import { BiExpandAlt, BiLink } from "react-icons/bi";
 import { RxCross2 } from 'react-icons/rx'
 
 function Projects() {
@@ -63,40 +63,52 @@ function Projects() {
                 {projects?.map((project, index) => (
                     <div
                         key={index}
-                        className='w-[100%] h-fit p-4 rounded-md bg-[#0008] flex flex-col gap-y-3 shadow shadow-[#12345685] relative'
+                        className='w-[100%] h-fit p-2 rounded-md bg-[#123456a5] flex flex-col gap-y-2 shadow shadow-[#12345685] relative'
                     >
-                        <BiExpandAlt
-                            className='absolute top-3 right-3 cursor-pointer hover:-rotate-90 transition duration-200'
-                            onClick={() => {
-                                setSelectedProject(project)
-                                setIsExpand(true)
-                            }}
-                        />
-                        <div
-                            className='text-green-400 tracking-wide text-xl leading-none font-medium'
-                        >
-                            {(index + 1) + ". " + project.name}
+                        <div className='flex items-center justify-between bg-[#0008] rounded p-2 w-full gap-x-4'>
+                            <div
+                                className='text-green-400 tracking-wide text-xl leading-none font-medium'
+                            >
+                                {(index + 1) + ". " + project.name}
+                            </div>
+                            <div className='flex flex-row-reverse items-center gap-x-2'>
+                                <BiExpandAlt
+                                    className='cursor-pointer hover:-rotate-90 transition duration-200'
+                                    onClick={() => {
+                                        setSelectedProject(project)
+                                        setIsExpand(true)
+                                    }}
+                                />
+                                {project.isOnGithub
+                                    ? <BiLink
+                                        className='text-lg cursor-pointer leading-none text-gray-100'
+                                        href={project?.ghUrl}
+                                    />
+                                    : null
+                                }
+                            </div>
                         </div>
                         <div
-                            className='text-base text-gray-400 leading-none tracking-wide'
+                            className='text-base text-gray-300 flex items-center gap-x-2 px-1 leading-none tracking-wide'
                         >
                             {project.category} Project
                         </div>
                         <div
-                            className='flex items-center gap-x-2 w-full overflow-x-auto'
+                            className='flex items-center gap-x-2 w-full bg-[#0008] rounded p-2 overflow-x-auto'
                             style={{ scrollbarWidth: 'none' }}
                         >
                             {project.techStack?.map((t, index) => (
                                 <div
                                     key={index}
-                                    className='py-1 px-2 rounded-sm shadow-md bg-gray-200 text-sm leading-none font-medium text-gray-900'
+                                // className='py-1 px-2 rounded-sm shadow-md bg-gray-200 text-sm leading-none font-medium text-gray-900'
                                 >
+                                    {index > 0 && <span className="mr-1">|&nbsp;</span>}
                                     {t}
                                 </div>
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-lg leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 text-justify'
+                            className='overflow-hidden text-gray-200 text-sm leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 bg-[#0008] rounded px-2.5 py-1 text-justify'
                         >
                             {project.desc}
                         </div>

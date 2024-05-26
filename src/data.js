@@ -29,22 +29,24 @@ export const projects = [
     {
         name: 'Bankify',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'Firebase', 'MongoDB'],
-        desc: 'Created a banking app using JavaScript, React.js, Tailwind CSS, fortified with secure Node.js and Express.js REST APIs, and utilizing Postman for API testing. Leveraged NoSQL database MongoDB for scalability and rapid data access, while offering users an insightful dashboard for a comprehensive account overview on platform.',
-        isOnGithub: true
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'Firebase', 'MongoDB'],
+        desc: 'Created a banking app using JavaScript, ReactJS, Tailwind CSS, fortified with secure NodeJS and ExpressJS REST APIs, and utilizing Postman for API testing. Leveraged NoSQL database MongoDB for scalability and rapid data access, while offering users an insightful dashboard for a comprehensive account overview on platform.',
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/Bankify-BankingApp"
     },
     {
         name: 'HungerHalt',
         category: 'Academic',
-        techStack: ['React.js', 'Python', 'Node.js', 'Express.js', 'MongoDB'],
-        desc: 'Developed a food waste management platform by implementing JavaScript, React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Demonstrated the ability to create and train Python model and integrated it in the application for predictive analytics to minimize the food wastage.',
-        isOnGithub: true
+        techStack: ['ReactJS', 'Python', 'NodeJS', 'ExpressJS', 'MongoDB'],
+        desc: 'Developed a food waste management platform by implementing JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB, and Tailwind CSS. Demonstrated the ability to create and train Python model and integrated it in the application for predictive analytics to minimize the food wastage.',
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/HungerHalt"
     },
     {
         name: 'DueDash',
         category: 'Professional',
-        techStack: ['React.js', 'Next.js', 'Tailwind CSS'],
-        desc: 'Constructed the frontend of DueDash Capital Networks leveraging JavaScript, TypeScript, React.js and Tailwind CSS, integrated Node.js and Express.js REST APIs and Python scripts. Crafted custom reusable components in React.js, to improve the performance of the application, focused on mobile responsiveness of the web pages.',
+        techStack: ['ReactJS', 'NextJS', 'Tailwind CSS'],
+        desc: 'Constructed the frontend of DueDash Capital Networks leveraging JavaScript, TypeScript, ReactJS and Tailwind CSS, integrated NodeJS and ExpressJS REST APIs and Python scripts. Crafted custom reusable components in ReactJS, to improve the performance of the application, focused on mobile responsiveness of the web pages.',
         isOnGithub: false
     },
     {
@@ -52,61 +54,67 @@ export const projects = [
         category: 'Personal',
         techStack: ['Python', 'Flask', 'SQLAlchemy', 'JavaScript'],
         desc: 'Constructed the backend of the freelance marketplace platform using Python, Flask web framework and SQLAlchemy database, integrated GCP for user authentication. Crafted the user-facing frontend of the freelance marketplace by implementing ReactJS enhancing the overall experience for both freelancers and clients seeking to connect and collaborate on projects.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/FreelanceMarketplace"
     },
     {
         name: 'Project Manager',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB'],
         desc: 'It is a projects and APIs listing platform, a great place for developers. They can post their projects and APIs on the platform as well as they can inspire from the work of other developers available on the platform. Beginners can use the APIs posted on the platform to start their development journey.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/Project-Manager"
     },
     {
         name: 'Hotel Price Analysis',
         category: 'Academic',
         techStack: ['Java', 'Selenium'],
         desc: 'Co-developed a sophisticated console-based Java application designed to efficiently scan through three distinct hotel websites using Selenium, analyze and present the best deals. Demonstrated the ability to develop an application that records the search frequency of cities, offers recommendations for popular destinations and intelligently corrects spelling errors to ensure accurate search results.',
-        isOnGithub: true
+        isOnGithub: false
     },
     {
         name: 'Communix',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'PostgreSQL'],
         desc: 'A social media site where users can share, like, comment, and report posts on their timeline along with notifications and recent activity. There is an Admin Dashboard for the admin of the site and from there the admin can manage the users, reported posts, and contact queries. A user also has a profile page with several insights.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/Communix"
     },
     {
         name: 'Guess The Color',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB'],
         desc: 'It is a fun game where you can test your knowledge, experience and accuracy you have on the CSS property of color. You have two color formats to choose from; RGB and HEX. It consists of a leaderboard to create a competitive environment. This game will surely improve your CSS knowledge.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/gtc-game"
     },
     {
         name: 'E-Mart',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'PostgreSQL'],
         desc: 'This is an e-commerce website specifically developed for electronic gadgets. Also, all the products are available at a discounted price with several other features. Moreover, average rating based on feedback is also visible in the footer.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/E-Mart"
     },
     {
         name: 'Gossip Corner',
         category: 'Personal',
-        techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB'],
         desc: 'This is a social media website which provides one of the best platforms to share your gossips with the world and have fun together with several other features and benefits. Users can post their gossips, view gossips on their timeline, or delete their gossips.',
-        isOnGithub: true
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/GossipCorner"
     },
     // {
     //     name: 'QR Code Generator',
     //     category: 'Generator Tool',
-    //     techStack: ['React.js', 'Flask'],
+    //     techStack: ['ReactJS', 'Flask'],
     //     desc: 'It is a simple QR Code Generator where you can just input any valid URL and it will generate a QR Code for that URL. Now, you can scan the QR Code and access the URL',
     //     isOnGithub: true
     // },
     // {
     //     name: 'PokéCard',
     //     category: 'Pokemon App',
-    //     techStack: ['HTML', 'CSS', 'React.js'],
+    //     techStack: ['HTML', 'CSS', 'ReactJS'],
     //     desc: 'This is a Pokemon application where information of several pokemons are made available using the help of a pokemon api. Search pokemon name to access important infromation realted to that pokemon.',
     //     isOnGithub: true
     // },
@@ -129,30 +137,23 @@ export const projects = [
 export const workExp = [
     {
         role: 'Software Developer Intern',
-        type: 'Full-Time Internship',
         company: 'Modgenics Technology Solutions Pvt. Ltd.',
         location: 'Remote',
         desc: [
-            "Worked on 2 projects. 1. DueDash, 2. EduFlip.",
-            "For the first 1.5 months, worked on DueDash. Worked on developing custom and reusable components in React.js and integrating them in the main pages.",
-            "For next 5 months, worked on EduFlip. By the time my internship came to an end, it was ready for its first release.",
-            "Developed all the pages in Next.js from scratch using reusable components."
+            "Pioneered development of 70% of web pages with reusable components, elevating code quality and reducing development timelines by leveraging Docker and Kubernetes", "Empowered by leveraging ReactJS, NextJS, and Tailwind CSS to construct JavaScript and TypeScript components, integrated NodeJS and ExpressJS RESTful APIs, managed AWS S3 for image storage", "Prioritized mobile responsiveness on 90 % of web pages to enhance user interface and user experience across devices"
         ],
-        techStack: ['React.js', 'Next.js', 'AWS S3', 'Tailwind CSS'],
+        techStack: ['ReactJS', 'NextJS', 'AWS S3', 'Tailwind CSS'],
         duration: 'Jan 2023 - Jul 2023',
         certificateUrl: 'https://media.licdn.com/dms/image/D562DAQGNv0dgoAAWYg/profile-treasury-document-cover-images_480/0/1699763169649?e=1700370000&v=beta&t=HzJUHD9x9U5e_KSOghFpyJ9KGniFdEI2f9k8ev0NGas'
     },
     {
         role: 'Full-Stack Developer Intern',
-        type: 'Summer Internship',
         company: 'TatvaSoft',
         location: 'Remote',
         desc: [
-            "Got to work on an individual project. Developed an online shopping store.",
-            "This store contains electronic gadgets as the primary products.",
-            "Everyday I had to report to the manager regarding the progress of the project."
+            "Crafted a cutting-edge online bookstore application from scratch, leveraging JavaScript, ReactJS for engaging frontend design, NodeJS and ExpressJS for developing RESTful APIs, Postman for API testing and debugging, and PostgreSQL for seamless database management", "Ensured every page was designed with 100 % mobile responsiveness, providing seamless accessacross a multitude of devices"
         ],
-        techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'PostgreSQL'],
         duration: 'Jul 2022 - Dec 2022',
         certificateUrl: 'https://media.licdn.com/dms/image/D4D2DAQHWnJf3gOxq7w/profile-treasury-document-cover-images_480/0/1692809204396?e=1700370000&v=beta&t=-cCxgVc89b5Lq7AAQqXgAbUnmR05PU-KlNzs56m4Hi4'
     }
@@ -199,22 +200,22 @@ export const techSkills = [
         category: 'lang'
     },
     {
-        sname: 'React.js',
+        sname: 'ReactJS',
         Component: BiLogoReact,
         category: 'l&f'
     },
     {
-        sname: 'Next.js',
+        sname: 'NextJS',
         Component: SiNextdotjs,
         category: 'l&f'
     },
     {
-        sname: 'Node.js',
+        sname: 'NodeJS',
         Component: BiLogoNodejs,
         category: 'l&f'
     },
     {
-        sname: 'Express.js',
+        sname: 'ExpressJS',
         Component: SiExpress,
         category: 'l&f'
     },

@@ -5,7 +5,7 @@ function Workexp() {
     return (
         <div className='h-[calc(100%-64px)] w-full p-4 flex justify-center text-white'>
             <div
-                className='grid w-[95%] md:w-[75%] lg:w-[60%] h-full overflow-y-auto grid-cols-1 gap-y-5'
+                className='grid w-[100%] md:w-[75%] lg:w-[60%] h-full overflow-y-auto grid-cols-1 gap-y-5'
                 style={{ scrollbarWidth: 'none' }}
             >
                 {workExp?.map((we, index) => (
@@ -13,17 +13,17 @@ function Workexp() {
                         key={index}
                         className='flex flex-col gap-y-3 justify-center rounded-md px-3 py-4 shadow shadow-[#12345685] bg-[#123456a5]'
                     >
-                        <div className='flex items-center justify-center w-full gap-3'>
-                            <div className='flex flex-col bg-[#0008] w-1/2 text-base leading-none items-start md:items-start justify-center gap-y-2 p-3 rounded-md'>
+                        <div className='flex flex-col items-center justify-center w-full gap-3'>
+                            <div className='flex flex-col bg-[#0008] w-full text-base leading-none items-start md:items-start justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Role</div>
                                 <div className='w-full leading-5 md:leading-none text-left tracking-wide'>{we.role}</div>
                             </div>
-                            <div className='flex flex-col bg-[#0008] w-1/2 text-base leading-none items-start md:items-start justify-center gap-y-2 p-3 rounded-md'>
+                            <div className='flex flex-col bg-[#0008] w-full text-base leading-none items-start md:items-start justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Company</div>
                                 <div className='w-full leading-5 md:leading-none text-left tracking-wide'>{we.company}</div>
                             </div>
                         </div>
-                        <div className='flex items-center justify-center w-full gap-3'>
+                        <div className='flex flex-col sm:flex-row items-center justify-center w-full gap-3'>
                             <div className='flex flex-col bg-[#0008] w-full !text-base !leading-none items-start justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Duration</div>
                                 <div className='w-full text-left tracking-wide'>

@@ -93,7 +93,7 @@ function Projects() {
                             </div>
                         </div>
                         <div
-                            className='text-xs text-gray-100 mx-1 flex items-center gap-x-2 my-1 py-1 px-2 rounded bg-blue-600 w-fit leading-none tracking-wide'
+                            className='text-xs text-gray-100 mx-1 flex items-center gap-x-2 my-1 py-1 px-2 rounded bg-green-500 w-fit leading-none tracking-wide'
                         >
                             {project.category} Project
                         </div>

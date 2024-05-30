@@ -65,7 +65,7 @@ function Projects() {
                         key={index}
                         className='w-[100%] h-fit p-2 rounded-md bg-[#123456a5] flex flex-col gap-y-2 shadow shadow-[#12345685] relative'
                     >
-                        <div className='flex items-center justify-between bg-[#0008] rounded p-2 w-full gap-x-4'>
+                        <div className='flex items-center justify-between bg-[#0008] rounded p-2.5 w-full gap-x-4'>
                             <div
                                 className='text-green-400 tracking-wide text-xl leading-none font-medium'
                             >
@@ -80,21 +80,25 @@ function Projects() {
                                     }}
                                 />
                                 {project.isOnGithub
-                                    ? <BiLink
-                                        className='text-lg cursor-pointer leading-none text-gray-100'
+                                    ? <a
                                         href={project?.ghUrl}
-                                    />
+                                        target={'_blank'}
+                                    >
+                                        <BiLink
+                                            className='text-lg cursor-pointer leading-none text-gray-100'
+                                        />
+                                    </a>
                                     : null
                                 }
                             </div>
                         </div>
                         <div
-                            className='text-base text-gray-300 flex items-center gap-x-2 px-1 leading-none tracking-wide'
+                            className='text-xs text-gray-100 mx-1 flex items-center gap-x-2 my-1 py-1 px-2 rounded bg-blue-600 w-fit leading-none tracking-wide'
                         >
                             {project.category} Project
                         </div>
                         <div
-                            className='flex items-center gap-x-2 w-full bg-[#0008] rounded p-2 overflow-x-auto'
+                            className='flex items-center gap-x-2 w-full px-1 overflow-x-auto text-green-400'
                             style={{ scrollbarWidth: 'none' }}
                         >
                             {project.techStack?.map((t, index) => (
@@ -108,7 +112,7 @@ function Projects() {
                             ))}
                         </div>
                         <div
-                            className='overflow-hidden text-gray-200 text-sm leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 bg-[#0008] rounded px-2.5 py-1 text-justify'
+                            className='overflow-hidden text-gray-200 text-sm leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 px-1 text-justify'
                         >
                             {project.desc}
                         </div>

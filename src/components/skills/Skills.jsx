@@ -15,7 +15,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'lang')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>
@@ -30,7 +30,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'l&f')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>
@@ -45,7 +45,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'db')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>
@@ -60,7 +60,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'vcs')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>
@@ -75,7 +75,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'cont')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>
@@ -90,7 +90,7 @@ function Skills() {
                     {techSkills?.filter(x => x.category == 'tool')?.map((ts, index) => (
                         <div
                             key={index}
-                            className='w-[100%] py-3 px-2 rounded-md bg-[#12345695] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
+                            className='w-[100%] py-3 px-2 rounded-md bg-[#0007] shadow shadow-[#12345695] flex items-center justify-center gap-x-2 text-base sm:text-lg leading-none'
                         >
                             <ts.Component className='text-2xl sm:text-3xl leading-none' />{ts.sname}
                         </div>

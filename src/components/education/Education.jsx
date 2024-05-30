@@ -13,9 +13,9 @@ function Education() {
                 {education?.map((edu, index) => (
                     <div
                         key={index}
-                        className='flex flex-col gap-y-3 justify-center h-fit rounded-md p-3 shadow shadow-[#12345685] bg-[#12345685] relative z-[1] overflow-hidden'
+                        className='flex flex-col gap-y-3 justify-center rounded-md p-3 shadow shadow-[#12345685] bg-[#12345685]'
                     >
-                        <div
+                        {/* <div
                             className='absolute top-0 left-0 w-full h-full'
                             style={{
                                 backgroundImage: `url(${index === 0 ? uwindor : svit})`,
@@ -27,8 +27,8 @@ function Education() {
                                 zIndex: -1,
                                 opacity: 0.3,
                             }}
-                        ></div>
-                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                        ></div> */}
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-3'>
                             <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Institute</div>
                                 <div className='w-full tracking-wide'>{edu.institute}</div>
@@ -38,7 +38,7 @@ function Education() {
                                 <div className='w-full tracking-wide'>{edu.courseDegree}</div>
                             </div>
                         </div>
-                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-3'>
                             <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Major</div>
                                 <div className='w-full tracking-wide'>{edu.major}</div>
@@ -48,7 +48,7 @@ function Education() {
                                 <div className='w-full tracking-wide'>{edu.duration}</div>
                             </div>
                         </div>
-                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-3'>
                             <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
                                 <div className='w-full text-green-400'>Location</div>
                                 <div className='w-full tracking-wide'>{edu.city}</div>

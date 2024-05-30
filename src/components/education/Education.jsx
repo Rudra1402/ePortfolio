@@ -7,13 +7,13 @@ function Education() {
     return (
         <div className='h-[calc(100%-64px)] w-full p-4 flex justify-center text-white'>
             <div
-                className='flex w-[95%] md:w-[75%] lg:w-[50%] h-full overflow-y-auto flex-col gap-y-5'
+                className='grid w-[100%] md:w-[75%] lg:w-[60%] overflow-y-auto grid-cols-1 !gap-y-5'
                 style={{ scrollbarWidth: 'none' }}
             >
                 {education?.map((edu, index) => (
                     <div
                         key={index}
-                        className='flex flex-col gap-y-4 justify-center rounded-md min-h-max p-5 shadow shadow-[#12345685] bg-[#12345685] relative z-[1] overflow-hidden'
+                        className='flex flex-col gap-y-3 justify-center h-fit rounded-md p-3 shadow shadow-[#12345685] bg-[#12345685] relative z-[1] overflow-hidden'
                     >
                         <div
                             className='absolute top-0 left-0 w-full h-full'
@@ -28,30 +28,36 @@ function Education() {
                                 opacity: 0.3,
                             }}
                         ></div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Institute</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.institute}</div>
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>Institute</div>
+                                <div className='w-full tracking-wide'>{edu.institute}</div>
+                            </div>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>Degree</div>
+                                <div className='w-full tracking-wide'>{edu.courseDegree}</div>
+                            </div>
                         </div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Degree</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.courseDegree}</div>
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>Major</div>
+                                <div className='w-full tracking-wide'>{edu.major}</div>
+                            </div>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>Duration</div>
+                                <div className='w-full tracking-wide'>{edu.duration}</div>
+                            </div>
                         </div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Major</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.major}</div>
-                        </div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Duration</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.duration}</div>
-                        </div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>Location</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1 tracking-wide'>{edu.city}</div>
-                        </div>
-                        <div className='flex w-full text-lg leading-none items-center justify-center'>
-                            <div className='w-1/3 sm:w-2/5 text-right pr-2 text-green-400'>CPGA</div>
-                            <div className='w-2/3 sm:w-3/5 text-left pl-1'>
-                                {edu.cgpa !== '' ? edu.cgpa : 'N/A'}
+                        <div className='flex flex-col sm:flex-row items-center justify-center gap-x-3'>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>Location</div>
+                                <div className='w-full tracking-wide'>{edu.city}</div>
+                            </div>
+                            <div className='flex flex-col bg-[#0008] w-full text-lg leading-none items-center justify-center gap-y-2 p-3 rounded-md'>
+                                <div className='w-full text-green-400'>CPGA</div>
+                                <div className='w-full'>
+                                    {edu.cgpa !== '' ? edu.cgpa : 'N/A'}
+                                </div>
                             </div>
                         </div>
                     </div>

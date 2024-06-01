@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaJava, FaDocker, FaJira, FaTrello, FaBootstrap } from 'react-icons/fa'
 import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode } from 'react-icons/si'
+import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces } from 'react-icons/si'
 
 export const socials = [
     {
@@ -19,9 +19,14 @@ export const socials = [
         url: "https://twitter.com/rp14ok"
     },
     {
-        Component: FaInstagram,
-        name: "Instagram",
-        url: "https://www.instagram.com/rudra.patel.14/"
+        Component: SiLeetcode,
+        name: "LeetCode",
+        url: "https://leetcode.com/rudra14/"
+    },
+    {
+        Component: SiCodeforces,
+        name: "Codeforces",
+        url: "https://codeforces.com/profile/print_rp14"
     }
 ]
 

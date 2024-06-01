@@ -28,7 +28,7 @@ function Homepage() {
                 <div className='text-2xl md:text-start text-center tracking-wide'>
                     A passionate <i className='font-semibold'>Software Developer</i> with expertise in <i className='font-semibold'>Web Technologies</i>!
                 </div>
-                <div className='flex items-center md:justify-start justify-center gap-x-4 pt-6'>
+                <div className='flex items-center md:justify-start justify-center gap-x-5 pt-6'>
                     {socials?.map((social, index) => (
                         <div
                             key={index}

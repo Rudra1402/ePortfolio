@@ -63,9 +63,9 @@ function Projects() {
                 {projects?.map((project, index) => (
                     <div
                         key={index}
-                        className='w-[100%] h-fit p-2 rounded-md bg-[#123456a5] flex flex-col gap-y-2 shadow shadow-[#12345685] relative'
+                        className='w-[100%] h-fit p-2 rounded-md bg-[#0008] flex flex-col gap-y-2 shadow shadow-[#12345685] relative'
                     >
-                        <div className='flex items-center justify-between bg-[#0008] rounded p-2.5 w-full gap-x-4'>
+                        <div className='flex items-center justify-between rounded p-2 w-full gap-x-4'>
                             <div
                                 className='text-green-400 tracking-wide text-xl leading-none font-medium'
                             >
@@ -93,7 +93,7 @@ function Projects() {
                             </div>
                         </div>
                         <div
-                            className='text-xs text-gray-800 mx-1 flex items-center gap-x-2 my-1 py-1 px-2 rounded bg-green-400 w-fit leading-none tracking-wide'
+                            className='text-sm text-gray-400 mx-1 flex items-center gap-x-2 w-fit leading-none tracking-wide'
                         >
                             {project.category} Project
                         </div>

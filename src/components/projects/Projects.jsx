@@ -8,43 +8,31 @@ function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projectDialog = (
-        <div
-            className='absolute bg-[#000c] top-0 bottom-0 left-0 right-0 flex items-center justify-center z-10'
-        >
-            <div
-                className='w-2/3 h-4/5 rounded-md bg-gray-200 flex flex-col gap-y-3.5 p-4 relative'
-            >
-                <div
-                    className='absolute -top-3 -right-3 bg-red-500 p-1 rounded-full cursor-pointer'
-                >
+        <div className='absolute bg-[#000c] top-0 bottom-0 left-0 right-0 flex items-center justify-center z-10'>
+            <div className='w-11/12 md:w-2/3 h-4/5 rounded-md bg-white flex flex-col gap-y-3.5 p-6 relative shadow-lg'>
+                <div className='absolute -top-3 -right-3 bg-red-500 p-1 rounded-full cursor-pointer'>
                     <RxCross2
-                        className='text-gray-100 font-semibold text-xl leading-none'
+                        className='text-white text-xl font-semibold'
                         onClick={() => setIsExpand(false)}
                     />
                 </div>
-                <div className='text-2xl leading-none text-gray-800'>
+                <div className='text-2xl font-semibold text-gray-800'>
                     {selectedProject?.name}
                 </div>
-                <div
-                    className='text-base text-gray-600 leading-none tracking-wide'
-                >
+                <div className='text-base text-gray-600'>
                     {selectedProject?.category} Project
                 </div>
-                <div
-                    className='flex items-center w-full overflow-x-auto gap-x-2'
-                >
+                <div className='flex items-center w-full overflow-x-auto gap-x-2'>
                     {selectedProject?.techStack?.map((t, index) => (
                         <div
                             key={index}
-                            className='py-1.5 px-2.5 rounded-sm shadow-md bg-blue-500 text-base leading-none font-medium text-gray-200'
+                            className='py-1.5 px-3 rounded bg-blue-500 text-base font-medium text-white shadow'
                         >
                             {t}
                         </div>
                     ))}
                 </div>
-                <div
-                    className='text-gray-700 text-lg text-justify'
-                >
+                <div className='text-gray-700 text-lg text-justify leading-relaxed'>
                     {selectedProject?.desc}
                 </div>
             </div>
@@ -52,68 +40,50 @@ function Projects() {
     );
 
     return (
-        <div
-            className='h-[calc(100%-64px)] w-full p-4 flex justify-center text-white relative'
-        >
-            {isExpand ? projectDialog : null}
-            <div
-                className='grid w-[92%] sm:w-[65%] md:w-[85%] lg:w-[75%] h-full overflow-y-auto grid-cols-1 md:grid-cols-2 gap-4'
-                style={{ scrollbarWidth: 'none' }}
+        <div className='h-[calc(100%-64px)] w-full p-4 flex justify-center relative'>
+            {isExpand && projectDialog}
+            <div className='grid w-full max-w-6xl h-full overflow-y-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'
+                style={{ scrollbarWidth: "none" }}
             >
                 {projects?.map((project, index) => (
                     <div
                         key={index}
-                        className='w-[100%] h-fit p-2 rounded-md bg-[#0008] flex flex-col gap-y-2 shadow shadow-[#12345685] relative'
+                        className='p-4 rounded-lg bg-white flex flex-col gap-y-3 shadow-lg hover:shadow-2xl transition-shadow duration-300'
                     >
-                        <div className='flex items-center justify-between rounded p-2 w-full gap-x-4'>
-                            <div
-                                className='text-green-400 tracking-wide text-xl leading-none font-medium'
-                            >
+                        <div className='flex items-center justify-between'>
+                            <div className='text-lg font-semibold text-gray-800'>
                                 {(index + 1) + ". " + project.name}
                             </div>
-                            <div className='flex flex-row-reverse items-center gap-x-2'>
+                            <div className='flex items-center gap-x-2'>
                                 <BiExpandAlt
-                                    className='cursor-pointer hover:-rotate-90 transition duration-200'
+                                    className='cursor-pointer text-gray-600 hover:text-gray-800 transition duration-200'
                                     onClick={() => {
                                         setSelectedProject(project)
                                         setIsExpand(true)
                                     }}
                                 />
-                                {project.isOnGithub
-                                    ? <a
-                                        href={project?.ghUrl}
-                                        target={'_blank'}
-                                    >
-                                        <BiLink
-                                            className='text-lg cursor-pointer leading-none text-gray-100'
-                                        />
+                                {project.isOnGithub && (
+                                    <a href={project?.ghUrl} target={'_blank'} rel="noopener noreferrer">
+                                        <BiLink className='text-lg text-gray-600 hover:text-gray-800 transition duration-200' />
                                     </a>
-                                    : null
-                                }
+                                )}
                             </div>
                         </div>
-                        <div
-                            className='text-sm text-gray-400 mx-1 flex items-center gap-x-2 w-fit leading-none tracking-wide'
-                        >
+                        <div className='text-sm text-gray-500'>
                             {project.category} Project
                         </div>
                         <div
-                            className='flex items-center gap-x-2 w-full px-1 overflow-x-auto text-green-400'
-                            style={{ scrollbarWidth: 'none' }}
+                            className='flex items-center gap-x-2 text-blue-600 text-sm overflow-x-auto'
+                            style={{ scrollbarWidth: "none" }}
                         >
                             {project.techStack?.map((t, index) => (
-                                <div
-                                    key={index}
-                                // className='py-1 px-2 rounded-sm shadow-md bg-gray-200 text-sm leading-none font-medium text-gray-900'
-                                >
-                                    {index > 0 && <span className="mr-1">|&nbsp;</span>}
+                                <div key={index} className='flex items-center'>
+                                    {index > 0 && <span className="mr-1">|</span>}
                                     {t}
                                 </div>
                             ))}
                         </div>
-                        <div
-                            className='overflow-hidden text-gray-200 text-sm leading-6 text-ellipsis line-clamp-4 sm:line-clamp-4 px-1 text-justify'
-                        >
+                        <div className='text-gray-700 text-sm leading-6 overflow-hidden text-ellipsis line-clamp-4'>
                             {project.desc}
                         </div>
                     </div>

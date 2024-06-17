@@ -8,7 +8,9 @@ const images = [uwindor, svit];
 function Education() {
     return (
         <div className='h-[calc(100%-64px)] w-full p-6 flex justify-center text-gray-900'>
-            <div className='grid w-full max-w-5xl overflow-y-auto grid-cols-1 gap-5'>
+            <div className='grid w-full max-w-5xl overflow-y-auto grid-cols-1 gap-5'
+                style={{ scrollbarWidth: "none" }}
+            >
                 {education?.map((edu, index) => (
                     <div
                         key={index}

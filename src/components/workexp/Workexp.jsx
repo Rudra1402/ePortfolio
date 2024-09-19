@@ -12,15 +12,15 @@ function Workexp() {
                         className='flex flex-col gap-6 p-6 rounded-lg shadow-lg bg-white'
                     >
                         <div className='flex flex-col md:flex-row items-center gap-4'>
-                            <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
-                                <div className='flex items-center gap-2 text-blue-600 font-semibold'>
+                            <div className='flex flex-col gap-y-1.5 w-full text-base leading-none'>
+                                <div className='flex items-center gap-0 text-blue-600 font-semibold'>
                                     {/* <FaBriefcase /> */}
                                     Role
                                 </div>
                                 <div className='tracking-wide'>{we.role}</div>
                             </div>
-                            <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
-                                <div className='flex items-center gap-2 text-blue-600 font-semibold'>
+                            <div className='flex flex-col gap-y-1.5 w-full text-base leading-none'>
+                                <div className='flex items-center gap-0 text-blue-600 font-semibold'>
                                     {/* <FaBuilding /> */}
                                     Company
                                 </div>
@@ -28,34 +28,34 @@ function Workexp() {
                             </div>
                         </div>
                         <div className='flex flex-col md:flex-row items-center gap-4'>
-                            <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
-                                <div className='flex items-center gap-2 text-blue-600 font-semibold'>
+                            <div className='flex flex-col gap-y-1.5 w-full text-base leading-none'>
+                                <div className='flex items-center gap-0 text-blue-600 font-semibold'>
                                     {/* <FaCalendarAlt /> */}
                                     Duration
                                 </div>
                                 <div className='tracking-wide'>{we.duration}</div>
                             </div>
-                            <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
-                                <div className='flex items-center gap-2 text-blue-600 font-semibold'>
+                            <div className='flex flex-col gap-y-1.5 w-full text-base leading-none'>
+                                <div className='flex items-center gap-0 text-blue-600 font-semibold'>
                                     {/* <FaMapMarkerAlt /> */}
                                     Location
                                 </div>
                                 <div className='tracking-wide'>{we.location}</div>
                             </div>
                         </div>
-                        <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
+                        {/* <div className='flex flex-col gap-y-1.5 w-full text-base leading-none'>
                             <div className='flex items-center gap-2 text-blue-600 font-semibold'>
-                                {/* <FaTools /> */}
                                 Tech Stack
                             </div>
                             <div className='overflow-x-auto w-full flex items-center gap-2'>
                                 {we.techStack?.map((t, ix) => (
-                                    <div key={ix} className='py-1 px-2 bg-gray-200 text-gray-800 rounded whitespace-nowrap'>
+                                    <div key={ix} className='py-1.5 px-2 bg-blue-600 text-gray-100 text-sm leading-none rounded whitespace-nowrap'>
                                         {t}
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
+                        <hr className=''/>
                         <div className='flex flex-col gap-y-3 w-full text-base leading-none'>
                             <div className='flex items-center gap-2 text-blue-600 font-semibold'>
                                 Description

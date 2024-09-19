@@ -145,7 +145,7 @@ export const workExp = [
         company: 'Modgenics Technology Solutions Pvt. Ltd.',
         location: 'Remote',
         desc: [
-            "Pioneered development of 70% of web pages with reusable components, elevating code quality and reducing development timelines by leveraging Docker and Kubernetes", "Empowered by leveraging ReactJS, NextJS, and Tailwind CSS to construct JavaScript and TypeScript components, integrated NodeJS and ExpressJS RESTful APIs, managed AWS S3 for image storage", "Prioritized mobile responsiveness on 90 % of web pages to enhance user interface and user experience across devices"
+            "Developed 100% of frontend of web applications using React.js, Next.js, TypeScript, and Tailwind CSS, designed custom reusable components for web UI, collaborated with cross-functional teams.", "Engineered robust application servers using Node.js and Express.js REST APIs, collaborated with crossfunctional teams, performed test driven development, leveraged AWS services for distributed systems.", "Leveraged Git and BitBucket for source code management, developed functional prototypes for the client to enhance customer relationship management, performing Agile planning every week."
         ],
         techStack: ['ReactJS', 'NextJS', 'AWS S3', 'Tailwind CSS'],
         duration: 'Jan 2023 - Jul 2023',
@@ -156,7 +156,7 @@ export const workExp = [
         company: 'TatvaSoft',
         location: 'Remote',
         desc: [
-            "Crafted a cutting-edge online bookstore application from scratch, leveraging JavaScript, ReactJS for engaging frontend design, NodeJS and ExpressJS for developing RESTful APIs, Postman for API testing and debugging, and PostgreSQL for seamless database management", "Ensured every page was designed with 100 % mobile responsiveness, providing seamless accessacross a multitude of devices"
+            "Developed a comprehensive e-commerce platform using React.js, Redux, HTML5, and Tailwind CSS, creating an engaging and interactive front-end design. Implemented advanced JavaScript ES6 for DOM manipulation.", "Created 100% mobile responsive web UI/UX for cross-browser compatibility to display web content, demonstrated ability to resolve technical issues. Utilized Git and GitHub for source code management.", "Built robust backend using Node.js and Express.js REST API for server-side scripting utilizing my coding skills, troubleshooting and debugging code. Implemented Postgres for database, wrote complex SQL queries."
         ],
         techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'PostgreSQL'],
         duration: 'Jul 2022 - Dec 2022',

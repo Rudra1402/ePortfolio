@@ -73,7 +73,7 @@ function Projects() {
                             {project.category} Project
                         </div>
                         <div
-                            className='flex items-center gap-x-2 text-blue-600 text-sm overflow-x-auto'
+                            className='flex items-center gap-x-2 w-full text-blue-600 text-sm overflow-x-auto'
                             style={{ scrollbarWidth: "none" }}
                         >
                             {project.techStack?.map((t, index) => (

@@ -48,6 +48,15 @@ export const projects = [
         ghUrl: "https://github.com/Rudra1402/HungerHalt"
     },
     {
+        name:  'E-Vehicle Depot',
+        category: 'Academic',
+        techStack: ['Python', 'Django(Framework)', 'JavaScript', 'SQLite3'],
+        desc: 'Developed an e-vehicle marketplace application using Python, Django (Model-Template-View Architecture), OO Programming, JavaScript, HTML, and CSS, featuring an interactive UI/UX, Firebase for image storage, implemented Django Sessions and Cookies for user authentication and  authorization.',
+        isOnGithub: true,
+        ghUrl: "https://github.com/Rudra1402/EV-Depot"
+
+    },
+    {
         name: 'DueDash',
         category: 'Professional',
         techStack: ['ReactJS', 'NextJS', 'Tailwind CSS'],

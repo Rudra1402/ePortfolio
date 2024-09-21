@@ -6,7 +6,8 @@ import { socials } from '../../data'
 function Homepage() {
     return (
         <div
-            className='h-[calc(100%-64px)] p-4 md:p-8 flex md:flex-row flex-col justify-start md:justify-center items-center gap-y-10 md:gap-x-10 text-white w-11/12 md:w-3/4'
+            className='h-[calc(100%-64px)] overflow-auto p-4 md:p-8 flex md:flex-row flex-col justify-start md:justify-center items-center gap-y-10 md:gap-x-10 text-white w-11/12 md:w-3/4'
+            style={{scrollbarWidth: "none"}}
         >
             <img
                 src={profile}

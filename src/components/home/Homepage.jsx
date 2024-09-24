@@ -24,7 +24,7 @@ function Homepage() {
                     Rudra Patel
                 </div>
                 <div className='text-lg md:text-justify text-center tracking-wide'>
-                A passionate Full-Stack Software Developer specializing in Web Technologies like JavaScript and Python. I thrive on crafting innovative solutions that make a difference. Let's connect and explore how I can contribute to your next project! Check out my portfolio for more.
+                <b>GitHub and Docker certified</b> Full-Stack Software Developer with <b>1 year of experience</b> in Web Technologies like JavaScript and Python. I thrive on crafting innovative solutions that make a difference. Let's connect and explore how I can contribute to your next project! Check out my portfolio for more.
                 </div>
                 <div className='flex items-center md:justify-start justify-center gap-x-5 pt-6'>
                     {socials?.map((social, index) => (

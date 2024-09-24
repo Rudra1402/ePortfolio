@@ -57,6 +57,14 @@ export const projects = [
 
     },
     {
+        name: 'Credit Limit Optimizer',
+        category: 'Personal',
+        techStack: ['Python', 'Machine Learning', 'Flask'],
+        desc: 'The project includes data preprocessing, model training, and deployment via a Flask web application. The process begins with loading and preparing data, followed by training a RandomForestRegressor model. The trained model and preprocessing steps are saved as pickle files.',
+        isOnGithub: true,
+        ghUrl: 'https://github.com/Rudra1402/Credit-Limit-Optimizer'
+    },
+    {
         name: 'DueDash',
         category: 'Professional',
         techStack: ['ReactJS', 'NextJS', 'Tailwind CSS'],
@@ -224,6 +232,11 @@ export const techSkills = [
         category: 'l&f'
     },
     {
+        sname: 'Django',
+        Component: BiLogoDjango,
+        category: 'l&f'
+    },
+    {
         sname: 'NodeJS',
         Component: BiLogoNodejs,
         category: 'l&f'
@@ -236,11 +249,6 @@ export const techSkills = [
     {
         sname: 'Flask',
         Component: SiFlask,
-        category: 'l&f'
-    },
-    {
-        sname: 'Django',
-        Component: BiLogoDjango,
         category: 'l&f'
     },
     {

@@ -30,7 +30,7 @@ function Skills() {
             {renderSkills('l&f', 'Libraries & Frameworks')}
             {renderSkills('db', 'Databases')}
             {renderSkills('vcs', 'Version Control')}
-            {renderSkills('cont', 'Containerization')}
+            {renderSkills('cont', 'DevOps/Containerization')}
             {renderSkills('tool', 'Developer Tools')}
         </div>
     );

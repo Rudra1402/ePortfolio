@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaJava, FaDocker, FaJira, FaTrello, FaBootstrap } from 'react-icons/fa'
-import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss } from 'react-icons/bi'
+import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi'
 import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces } from 'react-icons/si'
 
 export const socials = [
@@ -48,7 +48,7 @@ export const projects = [
         ghUrl: "https://github.com/Rudra1402/HungerHalt"
     },
     {
-        name:  'E-Vehicle Depot',
+        name: 'E-Vehicle Depot',
         category: 'Academic',
         techStack: ['Python', 'Django(Framework)', 'JavaScript', 'SQLite3'],
         desc: 'Developed an e-vehicle marketplace application using Python, Django (Model-Template-View Architecture), OO Programming, JavaScript, HTML, and CSS, featuring an interactive UI/UX, Firebase for image storage, implemented Django Sessions and Cookies for user authentication and  authorization.',
@@ -181,6 +181,21 @@ export const workExp = [
     }
 ]
 
+export const certificactions = [
+    {
+        certiurl: "https://www.linkedin.com/learning/certificates/42c1ee5ce151ff176b509bd40b8320260a32e5aa52e17cfa7ba6796151fbcb6d?u=56973065",
+        name: "Docker Foundations Professional Certificate",
+        issuedby: "Docker, Inc",
+        issuedate: "September 23, 2024"
+    },
+    {
+        certiurl: "https://www.linkedin.com/learning/certificates/8623f5d9d6f9c82d16d7892997b6d2f1463c120e033c8e2f1e4dfd61efaf3f8c?u=56973065",
+        name: "Career Essentials in GitHub Professional Certificate",
+        issuedby: "GitHub",
+        issuedate: "February 24, 2024"
+    }
+]
+
 export const education = [
     {
         institute: 'University of Windsor',
@@ -209,6 +224,11 @@ export const techSkills = [
     {
         sname: 'Python',
         Component: BiLogoPython,
+        category: 'lang'
+    },
+    {
+        sname: 'TypeScript',
+        Component: BiLogoTypescript,
         category: 'lang'
     },
     {

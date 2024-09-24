@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaJava, FaDocker, FaJira, FaTrello, FaBootstrap } from 'react-icons/fa'
-import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces } from 'react-icons/si'
+import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss, BiLogoTypescript, BiLogoAws, BiLogoGoogleCloud, BiLogoHeroku, BiLogoNetlify } from 'react-icons/bi'
+import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces, SiVercel, SiBitbucket } from 'react-icons/si'
 
 export const socials = [
     {
@@ -302,6 +302,11 @@ export const techSkills = [
         category: 'vcs'
     },
     {
+        sname: 'BitBucket',
+        Component: SiBitbucket,
+        category: 'vcs'
+    },
+    {
         sname: 'Tailwind CSS',
         Component: BiLogoTailwindCss,
         category: 'l&f'
@@ -310,6 +315,31 @@ export const techSkills = [
         sname: 'Bootstrap',
         Component: FaBootstrap,
         category: 'l&f'
+    },
+    {
+        sname: 'AWS',
+        Component: BiLogoAws,
+        category: 'cloud'
+    },
+    {
+        sname: 'GCP',
+        Component: BiLogoGoogleCloud,
+        category: 'cloud'
+    },
+    {
+        sname: 'Heroku',
+        Component: BiLogoHeroku,
+        category: 'cloud'
+    },
+    {
+        sname: 'Vercel',
+        Component: SiVercel,
+        category: 'cloud'
+    },
+    {
+        sname: 'Netlify',
+        Component: BiLogoNetlify,
+        category: 'cloud'
     },
     {
         sname: 'Docker',

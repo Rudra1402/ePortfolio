@@ -29,6 +29,7 @@ function Skills() {
             {renderSkills('lang', 'Programming Languages')}
             {renderSkills('l&f', 'Libraries & Frameworks')}
             {renderSkills('db', 'Databases')}
+            {renderSkills('cloud', 'Cloud Technologies')}
             {renderSkills('vcs', 'Version Control')}
             {renderSkills('cont', 'DevOps/Containerization')}
             {renderSkills('tool', 'Developer Tools')}

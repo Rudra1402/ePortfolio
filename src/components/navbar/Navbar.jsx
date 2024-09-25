@@ -61,6 +61,13 @@ function Navbar() {
             >
                 Skills
             </Link>
+            <Link
+                to={'/certificates'}
+                className='text-2xl leading-none'
+                onClick={() => setOpenSidebar(false)}
+            >
+                Certificates
+            </Link>
         </div>
     );
 
@@ -128,6 +135,18 @@ function Navbar() {
                     )}
                     onClick={() => setActivePath('/skills')}
                 >Skills</Link>
+                <Link
+                    to={'/certificates'}
+                    className={classNames(
+                        'py-1.5 px-2.5 rounded tracking-wide',
+                        activePath == '/certificates'
+                            ? 'bg-[#deb887] text-gray-800'
+                            : 'bg-transparent text-gray-200'
+                    )}
+                    onClick={() => setActivePath('/certificates')}
+                >
+                    Certificates
+                </Link>
             </div>
         </div>
     )

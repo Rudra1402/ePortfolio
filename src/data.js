@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaJava, FaDocker, FaJira, FaTrello, FaBootstrap } from 'react-icons/fa'
 import { BiLogoReact, BiLogoJavascript, BiLogoNodejs, BiLogoMongodb, BiLogoPostgresql, BiLogoGit, BiLogoGithub, BiLogoPython, BiLogoDjango, BiLogoTailwindCss, BiLogoTypescript, BiLogoAws, BiLogoGoogleCloud, BiLogoHeroku, BiLogoNetlify } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces, SiVercel, SiBitbucket } from 'react-icons/si'
+import { SiExpress, SiNextdotjs, SiFlask, SiCplusplus, SiMicrosoftsqlserver, SiMysql, SiKubernetes, SiPostman, SiVisualstudiocode, SiLeetcode, SiCodeforces, SiVercel, SiBitbucket, SiIbm } from 'react-icons/si'
 
 export const socials = [
     {
@@ -186,13 +186,22 @@ export const certificactions = [
         certiurl: "https://www.linkedin.com/learning/certificates/42c1ee5ce151ff176b509bd40b8320260a32e5aa52e17cfa7ba6796151fbcb6d?u=56973065",
         name: "Docker Foundations Professional Certificate",
         issuedby: "Docker, Inc",
-        issuedate: "September 23, 2024"
+        issuedate: "September 23, 2024",
+        Component: FaDocker
     },
     {
         certiurl: "https://www.linkedin.com/learning/certificates/8623f5d9d6f9c82d16d7892997b6d2f1463c120e033c8e2f1e4dfd61efaf3f8c?u=56973065",
         name: "Career Essentials in GitHub Professional Certificate",
         issuedby: "GitHub",
-        issuedate: "February 24, 2024"
+        issuedate: "February 24, 2024",
+        Component: FaGithub
+    },
+    {
+        certiurl: "https://www.coursera.org/account/accomplishments/verify/GQYQGVM5EX5Q",
+        name: "Developing Back-End Apps with Node.js and Express",
+        issuedby: "IBM / Coursera",
+        issuedate: "August 23, 2023",
+        Component: SiIbm
     }
 ]
 

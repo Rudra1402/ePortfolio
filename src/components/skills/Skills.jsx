@@ -11,7 +11,7 @@ function Skills() {
                     .map((ts, index) => (
                         <div
                             key={index}
-                            className='w-full py-4 px-3 rounded-lg bg-white shadow-md flex items-center justify-center gap-x-3 text-base sm:text-lg'
+                            className='w-full py-4 px-3 rounded-lg bg-white shadow-md flex items-center justify-center gap-x-3 text-[15px] sm:text-base md:text-lg'
                         >
                             <ts.Component className='text-2xl sm:text-3xl text-blue-600' />
                             <span className='font-medium'>{ts.sname}</span>

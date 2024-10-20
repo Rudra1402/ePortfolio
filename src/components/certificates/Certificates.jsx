@@ -9,7 +9,7 @@ function Certificates() {
         >
             <div className='w-full max-w-4xl flex flex-col gap-y-4'>
                 {certificactions.map((certi, index) => (
-                    <div key={index} className='flex items-center justify-between gap-4 bg-white rounded-lg p-6'>
+                    <div key={index} className='flex md:flex-row flex-col items-start md:items-center md:justify-between justify-start gap-4 bg-white rounded-lg p-6'>
                         <div className='flex items-center gap-4'>
                             <certi.Component className='text-5xl text-blue-500' />
                             <div className='flex flex-col'>
@@ -30,7 +30,7 @@ function Certificates() {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='md:mx-0 mx-auto'>
                             <a
                                 href={certi.certiurl}
                                 target='_blank'

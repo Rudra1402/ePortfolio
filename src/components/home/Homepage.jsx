@@ -16,7 +16,7 @@ function Homepage() {
                     'rounded-full h-64 md:h-72 w-64 md:w-72 cursor-pointer'
                 )}
             />
-            <div className='flex flex-col items-center md:items-start gap-y-4 md:gap-y-4'>
+            <div className='flex flex-col items-center md:items-start gap-y-4 md:gap-y-4 tracking-wide'>
                 <div className='text-2xl leading-none tracking-wide'>
                     Hey there, I'm
                 </div>
@@ -26,7 +26,7 @@ function Homepage() {
                 <div className='text-lg md:text-justify text-center tracking-wide'>
                 <b>GitHub and Docker certified</b> Full-Stack Software Developer with <b>1 year of experience</b> in Web Technologies like JavaScript and Python. I thrive on crafting innovative solutions that make a difference. Let's connect and explore how I can contribute to your next project! Check out my portfolio for more.
                 </div>
-                <div className='flex items-center md:justify-start justify-center gap-x-5 pt-6'>
+                <div className='flex items-center md:justify-start justify-center gap-x-5 py-6'>
                     {socials?.map((social, index) => (
                         <div
                             key={index}

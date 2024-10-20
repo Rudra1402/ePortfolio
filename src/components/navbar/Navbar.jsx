@@ -15,7 +15,7 @@ function Navbar() {
 
     const mobileSidebar = (
         <div
-            className='absolute top-0 left-0 bottom-0 w-5/6 sm:w-4/5 md:w-3/5 bg-gray-200 shadow-md text-gray-800 px-8 py-14 flex flex-col gap-y-6 items-center z-20'
+            className='absolute top-0 left-0 bottom-0 w-full sm:hidden bg-gray-50 shadow-md text-gray-800 px-8 py-14 flex flex-col gap-y-6 items-center z-20'
         >
             <RxCross2
                 className='absolute top-3 right-3 text-3xl leading-none cursor-pointer'

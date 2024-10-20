@@ -22,7 +22,10 @@ function Projects() {
                 <div className='text-base text-gray-600'>
                     {selectedProject?.category} Project
                 </div>
-                <div className='flex items-center w-full overflow-x-auto gap-x-2'>
+                <div 
+                className='flex items-center w-full overflow-x-auto gap-x-2'
+                style={{scrollbarWidth: "none"}}
+                >
                     {selectedProject?.techStack?.map((t, index) => (
                         <div
                             key={index}

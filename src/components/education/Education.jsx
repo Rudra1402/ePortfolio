@@ -3,7 +3,8 @@ import { education } from '../../data';
 import uwindor from '../../assets/uow.jpg';
 import svit from '../../assets/svit.png';
 
-const images = [uwindor, svit];
+// const images = [uwindor, svit];
+const images = ["https://firebasestorage.googleapis.com/v0/b/live-urls.appspot.com/o/uow.jpg?alt=media&token=70ab7662-64bb-43d4-a8ee-ceb19424d335", "https://firebasestorage.googleapis.com/v0/b/live-urls.appspot.com/o/svit.png?alt=media&token=11a1b823-16f6-43d0-879d-2141d317400a"]
 
 function Education() {
     return (
@@ -20,10 +21,10 @@ function Education() {
                             <img
                                 src={images[index]}
                                 alt={`${edu.institute} logo`}
-                                className='w-full h-40 md:max-w-60 md:min-w-60 object-cover md:min-h-40 rounded-md shadow-md'
+                                className='w-full h-44 md:max-w-full md:min-w-full object-cover md:min-h-40 rounded-md shadow-md'
                             />
                         </div>
-                        <div className='flex flex-col justify-center gap-4 w-2/3'>
+                        <div className='flex flex-col justify-center gap-4 w-2/3 md:px-3 px-0'>
                             <div className='flex flex-col md:flex-row items-center gap-4'>
                                 <div className='flex flex-col w-full text-base'>
                                     <div className='text-blue-600 font-semibold'>Institute</div>

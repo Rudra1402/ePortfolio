@@ -32,6 +32,13 @@ export const socials = [
 
 export const projects = [
     {
+        name: 'UWingine',
+        category: 'Academic',
+        techStack: ['Next.js', 'FastAPI', 'Docker', 'AWS (S3, DynamoDB, EC2, Lambda)', 'MongoDB'],
+        desc: 'Co-developed a highly scalable chatbot platform for the University of Windsor using an LLM model, deployed on AWS services (S3, DynamoDB, EC2, Lambda) with Docker. Leveraged FastAPI for backend and Next.js for frontend, enabling efficient query processing and accurate, reference-backed responses for university resources.',
+        isOnGithub: false
+    },
+    {
         name: 'Bankify',
         category: 'Personal',
         techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'Firebase', 'MongoDB'],
@@ -54,7 +61,6 @@ export const projects = [
         desc: 'Developed an e-vehicle marketplace application using Python, Django (Model-Template-View Architecture), OO Programming, JavaScript, HTML, and CSS, featuring an interactive UI/UX, Firebase for image storage, implemented Django Sessions and Cookies for user authentication and  authorization.',
         isOnGithub: true,
         ghUrl: "https://github.com/Rudra1402/EV-Depot"
-
     },
     {
         name: 'Credit Limit Optimizer',
@@ -125,35 +131,7 @@ export const projects = [
         desc: 'This is a social media website which provides one of the best platforms to share your gossips with the world and have fun together with several other features and benefits. Users can post their gossips, view gossips on their timeline, or delete their gossips.',
         isOnGithub: true,
         ghUrl: "https://github.com/Rudra1402/GossipCorner"
-    },
-    // {
-    //     name: 'QR Code Generator',
-    //     category: 'Generator Tool',
-    //     techStack: ['ReactJS', 'Flask'],
-    //     desc: 'It is a simple QR Code Generator where you can just input any valid URL and it will generate a QR Code for that URL. Now, you can scan the QR Code and access the URL',
-    //     isOnGithub: true
-    // },
-    // {
-    //     name: 'PokéCard',
-    //     category: 'Pokemon App',
-    //     techStack: ['HTML', 'CSS', 'ReactJS'],
-    //     desc: 'This is a Pokemon application where information of several pokemons are made available using the help of a pokemon api. Search pokemon name to access important infromation realted to that pokemon.',
-    //     isOnGithub: true
-    // },
-    // {
-    //     name: 'News Application',
-    //     category: 'News App',
-    //     techStack: ['React Native', 'CSS'],
-    //     desc: 'Users can view news for various categories like sports, health, business, etc. By default general category is set. Users can change the category from the navbar to view news of their own choice. They can also visit the original source of the news from the provided link.',
-    //     isOnGithub: true
-    // },
-    // {
-    //     name: 'TechQuiz',
-    //     category: 'Quiz Application',
-    //     techStack: ['HTML', 'CSS', 'JavaScript'],
-    //     desc: 'It is a technical quiz consisting of questions from different programming languages. Every correct answer will reward you 1 point, no negative point scheme. There are total 10 questions. At the end of the quiz user will get the final score.',
-    //     isOnGithub: true
-    // }
+    }
 ]
 
 export const workExp = [

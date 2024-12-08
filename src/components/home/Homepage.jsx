@@ -20,7 +20,7 @@ function Homepage() {
           <div className='text-2xl leading-none tracking-wide'>
             Hey there, I'm
           </div>
-          <div className='text-4xl sm:text-5xl text-red-400 md:text-start text-center md:text-6xl leading-none text-gradient'>
+          <div className='text-4xl sm:text-5xl text-green-400 md:text-start text-center md:text-6xl leading-none text-gradient'>
             Rudra Patel
           </div>
           <div className='text-lg text-center md:text-start md:leading-relaxed leading-normal tracking-wide'>

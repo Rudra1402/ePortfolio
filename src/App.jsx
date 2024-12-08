@@ -13,7 +13,7 @@ import Certificates from './components/certificates/Certificates'
 function App() {
   return (
     <div className="bg-[#122334] h-screen w-screen flex flex-col justify-center items-center">
-      <Router>
+      {/* <Router> */}
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Homepage />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/skills' element={<Skills />} />
           <Route path='/certificates' element={<Certificates />} />
         </Routes>
-      </Router>
+      {/* </Router> */}
     </div>
   )
 }
